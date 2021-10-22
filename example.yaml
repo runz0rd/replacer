@@ -1,0 +1,5 @@
+rules:
+  - dev: some-text
+    prod: some-other-text
+  - dev: (.*)-some-kind-of-regex$
+    prod: (.*)-some-other-kinf-of-regex$
